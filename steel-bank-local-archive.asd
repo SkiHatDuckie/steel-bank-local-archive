@@ -5,6 +5,15 @@
   :author "SkiHatDuckie"
   :license "LGPL-2.1"
   :version "0.1.0"
-  :pathname "src"
+
+  :depends-on ()
+
   :serial t
-  :components ((:file "package")))
+  :components ((:module "src"
+                        :serial t
+                        :components ((:file "package")
+                                     (:file "main"))))
+
+  :build-operation "program-op"
+  :build-pathname "../build/steel-bank-local-archive"
+  :entry-point "steel-bank-local-archive:main")

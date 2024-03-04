@@ -1,5 +1,6 @@
-;;;; package.lisp
+;;;; src/package.lisp
 
 (defpackage :steel-bank-local-archive
   (:use :cl)
-  (:local-nicknames :sbla))
+  (:nicknames :sbla)
+  (:export #:main))
