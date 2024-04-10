@@ -15,5 +15,5 @@
                                      (:file "main"))))
 
   :build-operation "program-op"
-  :build-pathname "../build/steel-bank-local-archive"
+  :build-pathname "build/steel-bank-local-archive"
   :entry-point "steel-bank-local-archive:main")

@@ -8,5 +8,5 @@
 (fiveam:in-suite testmain)
 
 (fiveam:test test1
-  (is (= (+ 1 1)
-         3)))
+  (fiveam:is (= (+ 1 1)
+              3)))
