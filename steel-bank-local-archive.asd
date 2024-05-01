@@ -13,6 +13,7 @@
   :components ((:module "src"
                         :serial t
                         :components ((:file "package")
+                                     (:file "utils")
                                      (:file "main"))))
 
   :build-operation "program-op"
