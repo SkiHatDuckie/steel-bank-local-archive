@@ -6,7 +6,8 @@
   :license "LGPL-2.1"
   :version "0.1.0"
 
-  :depends-on ()
+  :depends-on (:alloy
+               :alloy-glfw)
 
   :serial t
   :components ((:module "src"
